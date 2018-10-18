@@ -48,6 +48,11 @@ a{
     text-decoration: none;
     margin: 0 20px;
     color: #FFFFFF;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover{
+    border-color: white;
 }
 
 main{
@@ -57,4 +62,38 @@ main{
 
 img{
     margin: 40px 8px;
+}
+
+footer{
+    padding: 5px 20px; /*increase top/btm padding from 0-5 to avoid white space in fullscreen*/
+    background-color: #0D2C40;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.copyright{
+    float: left;
+    font-size: 16px;
+    margin: 20px auto;
+}
+
+.message{
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
+.name{
+    color: #F15B31;
+    font-weight: 700;
 }
