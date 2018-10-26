@@ -97,3 +97,11 @@ footer{
     color: #F15B31;
     font-weight: 700;
 }
+
+#button{
+    font-size: 18px;
+    padding: 10px 30px;
+    border-style: double;
+    border-color: coral;
+    border-radius: 15px;
+}
