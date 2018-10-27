@@ -98,10 +98,19 @@ footer{
     font-weight: 700;
 }
 
-#button{
+button{
+    display: inline;
     font-size: 18px;
     padding: 10px 30px;
+    margin-left: 80px;
     border-style: double;
     border-color: coral;
     border-radius: 15px;
+}
+
+#score, #scoreTitle{
+    display: inline;
+    font-size: 25px;
+    float: right;
+    background-color: #00A6B3;
 }
